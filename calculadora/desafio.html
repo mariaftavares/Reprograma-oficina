@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workshop - Desafio</title>
+  <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h1 class="cabecalho__titulo"><span class="purple-color font-36">{ Cal</span>culadora<span class="purple-color font-36"> }</span></h1>
+  </header>
+  <main>
+    <h2>Calcule o valor total do seu projeto:</h2>
+    <form>
+      <div class="fieldset">
+        <label class="label" for="valor-hora">Valor Hora</label><br>
+        <input type="number" id="valor-hora"/>
+      </div>
+      
+      <div class="fieldset">
+        <label for="horas-projeto">Horas Projeto</label><br>
+        <input type="number" id="horas-projeto"/>
+      </div>
+
+      <button class="submit-button" type="button" onclick="calcular()">Calcular Projeto</button>
+
+      <div class="result">
+        <label for="resposta">Resultado:</label>
+        <span id="resposta">R$0,00</span><br>
+        <a href="index.html">Voltar</a>
+      </div>
+    </form>    
+  </main>
+  
+
+  <script type="text/javascript" src="js/desafio.js"></script>
+</body>
+
+</html>
